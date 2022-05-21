@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Peliculas</title>
+        <link rel="stylesheet" href="css/styleb.css">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/stylefooter.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="page1.html" target="_blank">Pagina 1</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" aria-current="page" href="pagea.html">Pagina a</a>
+                        <a class="nav-link active" href="pageb.html">Pagina b</a>
+                        <a class="nav-link" href="pagec.html">Pagina c</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-8 bg-gradient d-none d-md-block">
+                    <div class="table-responsive">
+                        
+                        <table class="table">
+                            <h3 class="text-center bg-info cabecera_t">Conversion de divisas</h3>
+                           <thead>
+                               <tr>
+                                    <th scope="col"></th>
+                                    <th scope="col"></th>
+                                    <th scope="col">
+                                        <img src="iconos/arg.jpg" class="icon"><br>
+                                        ARS
+                                    </th>
+                                    <th scope="col">
+                                        <img src="iconos/btc.jpg" class="icon"><br>
+                                        BTC</th>
+                                    <th scope="col">
+                                        
+                                        <img src="iconos/eur.jpg" class="icon"><br>
+                                        EUR
+                                    </th>
+                                    <th scope="col">
+                                        <img src="iconos/usd.jpg" class="icon"><br>
+                                        USD
+                                    </th>
+                               </tr>
+                           </thead>
+                           <tbody>
+
+                               <tr>
+                                    <th scope="row">
+                                        <img src="iconos/usd.jpg" class="icon"><br>
+                                    </th>
+                                   <th>
+                                        1 USD <br>Inverse
+                                   </th>
+                                    <td>64.87725 <br> 0.015414</td>
+                                    <td>0.000140 <br> 7148.757</td>
+                                    <td>0.919901 <br> 1.087074</td>
+                                    <td>1.000000 <br> 1.000000</td>
+                               </tr>
+
+                               <tr>
+                                    <th scope="row">
+                                        <img src="iconos/eur.jpg" class="icon"><br>
+                                    </th>
+                                    <th>1 EUR <br>Inverse</th>
+                                    <td>70.52637 <br> 0.014179</td>
+                                    <td>0.000152 <br> 6576.146</td>
+                                    <td>1.000000 <br> 1.000000</td>
+                                    <td>1.087074 <br> 0.919901</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">
+                                        <img src="iconos/gbp.jpg" class="icon"><br>
+                                    </th>
+                                    <th>1 GBP <br>Inverse</th>
+                                    <td>79.95034 <br> 0.012508</td>
+                                    <td>0.000172 <br> 5800.997</td>
+                                    <td>1.133623 <br> 0.882127</td>
+                                    <td>1.232332 <br> 0.811469</td>
+                                </tr>
+
+                                <tr>
+                                    <th scope="row">
+                                        <img src="iconos/rub.jpg" class="icon"><br>
+                                    </th>
+                                    <th>1 RUB <br>Inverse</th>
+                                    <td>0.858036 <br> 1.165452 </td>
+                                    <td>0.000002 <br> 540527.1 </td>
+                                    <td>0.012166 <br> 82.19511 </td>
+                                    <td>0.013266 <br> 75.61134 </td>
+                                </tr>
+
+                           </tbody>
+                        </table>
+                            <br>
+                    </div>
+                </div>
+
+                <div class="col-md-4 formulario">
+
+                    <div class="row">
+                        
+                        <div class="col-12 cabecera">
+                            <h4 class="text-center">Conversion De Divisas</h4>
+                        </div>
+
+                        <div class="col-12 g-3 cuerpo">
+
+                                <h5>Cantidad</h5>
+        
+                                <input type="number" placeholder="Cantidad" class="text-end col-12 mb-2">
+            
+                                <h5>De</h5>
+            
+                                <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+                                    <option selected>Elija moneda</option>
+                                    <option value="ARS">ARS</option>
+                                    <option value="BTS">BTS</option>
+                                    <option value="EUR">EUR</option>
+                                    <option value="USD">USD</option>
+                                </select>
+            
+                                <h5>A</h5>
+            
+                                <select class="form-select form-select-lg mb-3" >
+                                    <option selected>Elija moneda</option>
+                                    <option value="ARS">ARS Pesos Argentinos</option>
+                                    <option value="BTS">BTS Bitcoins</option>
+                                    <option value="EUR">EUR Euros</option>
+                                    <option value="USD">USD Dolar Estado Unidense</option>
+                                </select>
+            
+                                <input type="number" class="text-end col-12 ">
+
+                                <div>
+                                    <button class="btn btn-warning btn-sm col-12 btn_conv" type="button">
+                                        <span>Convertir</span>
+                                        <i class="bi bi-arrow-right icono_cont"></i>
+                                    </button>
+                                </div>
+                               
+                        </div>
+                        
+                    </div>
+                     
+                </div>
+                
+            </div>
+        </div>
+        
+        <footer><h1>Derechos Reservados JG  2000 - 2022</h1></footer>
+
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
