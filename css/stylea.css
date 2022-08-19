@@ -18,3 +18,9 @@
     margin-bottom: 10px;
 }
 
+.datos {
+    text-align: center;
+    color: chocolate;
+    border: 3px solid;
+    border-color: red;
+}
